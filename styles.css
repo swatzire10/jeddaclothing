@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f5f7fa, #010e22);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-image: url("images/heading.jpeg");
+    color: hsl(244, 89%, 33%);
+    padding: 30px 0;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    font-style: oblique;
+  }
+
+
+
+  nav ul {
+    list-style: none;
+    padding-top: 10px;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffffcc;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+  }
+  
+  section#about {
+    background: #fdf6f0;
+  }
+  section#collection {
+    background: #86bff8;
+  }
+  section#purchase {
+    background: #e6f7f2;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 180px;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  form label {
+    font-weight: bold;
+  }
+  form input,
+  form select,
+  form textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+  }
+  form input:focus,
+  form select:focus,
+  form textarea:focus {
+    border-color: #39B0F2;
+    outline: none;
+  }
+  form button {
+    background-color: #002C8F;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  form button:hover {
+    background-color: #0052d4;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #000205;
+    color: white;
+    padding: 20px;
+  }
+  
+  .shop-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #010714;
+    color: white;
+    border-radius: 6px;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .shop-button:hover {
+    background-color: #0052d4;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .gallery img {
+      width: 100%;
+    }
+  }
+
+  a:link, a:visited {
+    color: dodgerblue;
+    font-style: italic;
+  }
+   a:hover, a:focus {
+    color: deeppink;
+   }
+
+  .point {
+    font-weight: bolder;
+  }
+
+  video {
+    width: 400px;
+  }
+  
+  img{
+    width: 250px;
+    height: auto;
+  }
+
+  .unif {
+    background-color: #000205;
+    width: 650px;
+  }
